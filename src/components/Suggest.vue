@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Helloo :), welcome to our travel suggesst app</h1>
-    <p>Select a continent and we will suggest awesome places for you to visit</p>
+    <h1>Hello 👋, Welcome to our travel suggest app</h1>
+    <p>Select a continent and we will suggest awesome locations for you to visit</p>
     <div>
       <select v-model="continent" class="select" @change="getCountry">
         <option value="" selected disabled>Select a Continent</option>
@@ -12,7 +12,8 @@
     </div>
     <div v-if="show_suggestion">
       <hr>
-      <h1>Viola !, we suggest you travel to <i class="suggested_county">{{ suggested_country }}</i></h1>
+      <h1>Viola!, we suggest you travel to <i class="suggested_county">{{ suggested_country }}</i></h1>
+      <h1>Bon Voyage ✈️ </h1>
     </div>
   </div>
 </template>
